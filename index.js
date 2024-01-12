@@ -12,7 +12,7 @@ const PORT = process.env.PORT || 5001;
 const app = express();
 app.use(
   cors({
-    origin: ["https://main--statuesque-florentine-202180.netlify.app/"],
+    origin: ["https://main--statuesque-florentine-202180.netlify.app/api/"],
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true
   })
