@@ -12,7 +12,7 @@ const PORT = process.env.PORT || 5001;
 const app = express();
 app.use(
   cors({
-    origin: ["http://localhost:3000"],
+    origin: ["https://ecommercebackend-lvj0.onrender.com"],
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true
   })
